@@ -1,0 +1,24 @@
+{
+    "api": "/merchant/{{__global_context.current_merchant_id}}",
+    "apiBasePath": "{{DATA_SERVER_HOST}}",
+    "type": "get",
+    "requestConfig": {},
+    "statusExpected": 200,
+    "stopExecutionIfFail": true,
+    "responseConfig": {
+        "idField": "id",
+        "checkIdGeneration": true,
+        "deepAssert": true,
+        "skipFieldsInDeepAssert": [
+            "createdBy"
+        ],
+        "context_actions": [
+            {
+                "type": "set",
+                "to_key": "cur_merchant_id",
+                "from_key": "id",
+                "scope": "global"
+            }
+        ]
+    }
+}

@@ -1,0 +1,19 @@
+{
+    "api": "/merchant",
+    "apiBasePath": "{{DATA_SERVER_HOST}}",
+    "type": "get",
+    "requestConfig": {},
+    "statusExpected": 200,
+    "stopExecutionIfFail": true,
+    "responseConfig": {
+        "idField": "id",
+        "checkIdGeneration": true,
+        "deepAssert": true,
+        "skipFieldsInDeepAssert": [
+            "createdBy", "data"
+        ],
+        "context_actions": [
+            
+        ]
+    }
+}

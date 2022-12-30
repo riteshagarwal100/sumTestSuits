@@ -1,0 +1,7 @@
+{
+    "name": "{{RANDOM_NAME}}",
+    "email": "{{RANDOM_EMAIL}}",
+    "username": "{{RANDOM_EMAIL}}",
+    "password": "12345678",
+    "roles": "admin"
+}

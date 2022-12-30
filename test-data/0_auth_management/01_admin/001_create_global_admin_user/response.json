@@ -1,0 +1,14 @@
+{
+    "status": {
+        "statusCode": 201,
+        "message": ""
+    },
+    "data": {
+        "name": "{{RANDOM_NAME}}",
+        "email": "{{RANDOM_EMAIL}}",
+        "username": "{{RANDOM_EMAIL}}",
+        "password": "$2b$10$3GN7GNjjC1aaxivBcJ5EwupV4wULSEpcWw34G06eRboJBTPPVC24y",
+        "roles": "admin",
+        "id": "ff0cb167-446f-41ce-b22c-8a69cc681433"
+    }
+}

@@ -1,0 +1,4 @@
+{
+    "username": "{{__global_context.username}}",
+    "password": "12345678"
+}

@@ -1,0 +1,12 @@
+{
+    "status": {
+        "statusCode": 200,
+        "message": ""
+    },
+    "data": {
+        "firstName": "{{__global_context.current_merchant_first_name}}",
+        "email": "{{__global_context.current_merchant_email}}",
+        "phone": "{{__global_context.current_merchant_phone}}",
+        "id": "{{__global_context.current_merchant_id}}"
+    }
+}

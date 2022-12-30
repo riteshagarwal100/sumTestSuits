@@ -1,0 +1,24 @@
+{
+    "api": "/user",
+    "apiBasePath": "{{DATA_SERVER_HOST}}",
+    "type": "post",
+    "requestConfig": {},
+    "statusExpected": 201,
+    "stopExecutionIfFail": true,
+    "responseConfig": {
+        "idField": "id",
+        "checkIdGeneration": true,
+        "deepAssert": true,
+        "skipFieldsInDeepAssert": [
+            "data"
+        ],
+        "context_actions": [
+            {
+                "type": "set",
+                "to_key": "username",
+                "from_key": "username",
+                "scope": "global"
+            }
+        ]
+    }
+}

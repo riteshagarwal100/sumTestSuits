@@ -1,0 +1,42 @@
+{
+    "api": "/merchant",
+    "apiBasePath": "{{DATA_SERVER_HOST}}",
+    "type": "post",
+    "requestConfig": {},
+    "statusExpected": 201,
+    "stopExecutionIfFail": true,
+    "responseConfig": {
+        "idField": "id",
+        "checkIdGeneration": true,
+        "deepAssert": true,
+        "skipFieldsInDeepAssert": [
+            "id","createdBy"
+        ],
+        "context_actions": [
+            {
+                "type": "set",
+                "to_key": "current_merchant_first_name",
+                "from_key": "firstName",
+                "scope": "global"
+            },
+            {
+                "type": "set",
+                "to_key": "current_merchant_id",
+                "from_key": "id",
+                "scope": "global"
+            },
+            {
+                "type": "set",
+                "to_key": "current_merchant_phone",
+                "from_key": "phone",
+                "scope": "global"
+            },
+            {
+                "type": "set",
+                "to_key": "current_merchant_email",
+                "from_key": "email",
+                "scope": "global"
+            }
+        ]
+    }
+}

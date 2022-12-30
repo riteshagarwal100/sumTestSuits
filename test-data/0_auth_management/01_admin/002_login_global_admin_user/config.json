@@ -1,0 +1,24 @@
+{
+    "api": "/login",
+    "apiBasePath": "{{DATA_SERVER_HOST}}",
+    "type": "post",
+    "requestConfig": {},
+    "statusExpected": 200,
+    "stopExecutionIfFail": true,
+    "responseConfig": {
+        "idField": "id",
+        "checkIdGeneration": true,
+        "deepAssert": true,
+        "skipFieldsInDeepAssert": [
+            "access_token"
+        ],
+        "context_actions": [
+            {
+                "type": "set",
+                "to_key": "admin_token",
+                "from_key": "access_token",
+                "scope": "global"
+            }
+        ]
+    }
+}

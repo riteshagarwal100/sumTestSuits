@@ -1,0 +1,9 @@
+{
+    "status": {
+        "statusCode": 200,
+        "message": ""
+    },
+    "data": {
+        "access_token": "eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJ1c2VybmFtZSI6Im51bHBpQGNvLuC5hOC4l-C4oiIsInN1YiI6ImNiNjNkYTM4LTBjY2EtNGU5Mi1iNDYxLWI4MTUyMmNjNjI1NSIsInJvbGVzIjoiYWRtaW4iLCJlbWFpbCI6Im51bHBpQGNvLuC5hOC4l-C4oiIsImlhdCI6MTY2OTcwNjMzNSwiZXhwIjoxNjY5NzA2Mzk1fQ.x-G8QBXd9RfuqNx8jP3pBL-kotBVQQX0onEmIdsLng0"
+    }
+}

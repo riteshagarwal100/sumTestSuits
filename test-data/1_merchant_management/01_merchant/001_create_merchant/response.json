@@ -1,0 +1,13 @@
+{
+    "status": {
+        "statusCode": 201,
+        "message": ""
+    },
+    "data": {
+        "firstName": "{{RANDOM_NAME}}",
+        "email": "{{RANDOM_EMAIL}}",
+        "phone": "+912828001752",
+        "id": "af244575-cb2e-4431-b311-b449713adba3",
+        "createdBy": "a55576b7-0c69-4f5e-b710-63dd64c9b62d"
+    }
+}

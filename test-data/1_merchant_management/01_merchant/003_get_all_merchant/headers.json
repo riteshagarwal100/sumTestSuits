@@ -1,0 +1,4 @@
+{
+    "Content-Type": "application/json",
+    "Authorization": "Bearer {{__global_context.admin_token}}"
+}
